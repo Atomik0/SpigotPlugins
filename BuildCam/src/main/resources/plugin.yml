@@ -1,0 +1,16 @@
+name: BuildCam
+version: '${version}'
+main: com.technical.buildcam.BuildCamPlugin
+api-version: '1.20'
+author: Atomik0
+description: Cinematic camera paths and recording templates for technical Paper servers.
+commands:
+  buildcam:
+    description: Main command for BuildCam plugin.
+    aliases: [bcam, cam]
+    permission: buildcam.use
+    usage: /buildcam <help|path|template|play|stop>
+permissions:
+  buildcam.use:
+    description: Allows using BuildCam camera paths and templates.
+    default: op

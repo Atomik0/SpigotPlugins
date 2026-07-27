@@ -1,0 +1,16 @@
+name: BuildCam-FPV
+version: '${version}'
+main: com.technical.buildcamfpv.BuildCamFPVPlugin
+api-version: '1.20'
+author: Atomik0
+description: Real-time FPV drone simulation plugin for Paper servers with USB controller integration.
+commands:
+  fpv:
+    description: Main command for BuildCam-FPV plugin.
+    aliases: [drone, fpvdrone]
+    permission: buildcamfpv.use
+    usage: /fpv <help|status|start|stop>
+permissions:
+  buildcamfpv.use:
+    description: Allows using FPV drone simulation features.
+    default: op

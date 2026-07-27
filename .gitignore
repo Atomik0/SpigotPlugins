@@ -1,0 +1,23 @@
+# Gradle temporary directories
+.gradle/
+.gradle-dist/
+build/
+*/build/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+
+# Local JDK distribution
+.jdk21/
+
+# Python cache and venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS metadata
+.DS_Store
+Thumbs.db

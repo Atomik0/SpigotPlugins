@@ -1,0 +1,4 @@
+rootProject.name = 'SpigotPlugins'
+include 'BuildCam'
+include 'BuildCam-FPV'
+

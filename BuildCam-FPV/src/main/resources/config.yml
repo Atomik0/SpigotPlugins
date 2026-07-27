@@ -1,0 +1,14 @@
+# BuildCam-FPV Configuration File
+
+# Port used for UDP controller input packets
+udp-port: 8888
+
+# Default Physics Parameters for FPV Drone Simulation
+physics:
+  default-camera-tilt: 25.0
+  max-roll-rate: 360.0
+  max-pitch-rate: 360.0
+  max-yaw-rate: 270.0
+  max-thrust-power: 25.0
+  gravity: 9.81
+  air-resistance: 0.15

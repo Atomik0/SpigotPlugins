@@ -1,0 +1,7 @@
+# BuildCam Configuration File
+
+# Default duration (in seconds) for camera path playback
+default-playback-duration: 10.0
+
+# Path Storage File Name
+storage-file: "paths.yml"
